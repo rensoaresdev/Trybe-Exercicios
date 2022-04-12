@@ -1,0 +1,9 @@
+const x = -0;
+
+if(x > 0){
+   console.log( "O número é Positivo");
+}else if(x < 0){
+    console.log( "O número é Negativo");
+}else{
+    console.log( "O número é ZERO(0)");
+}

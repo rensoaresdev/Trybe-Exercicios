@@ -1,0 +1,12 @@
+const x = 39;
+const y = 45;
+const z = 44;
+
+
+if(x > y && x > z){
+    console.log( "Maior número é o: ", x);
+}else if(y > x && y > z){
+    console.log( "Maior número é o: ", y);
+}else{
+    console.log( "Maior número é o: ", z);
+}

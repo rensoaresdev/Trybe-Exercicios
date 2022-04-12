@@ -1,0 +1,13 @@
+const x = 40;
+const y = 100;
+const z = 41;
+
+if(x > 0 && y > 0 && z > 0){
+    if((x + y + z) === 180){
+        console.log( "É um triângulo!");
+    }else{
+        console.log( "Não é um triãngulo!");
+    }
+}else{
+    console.log("Os angulos devem ter valores positivos!!");
+}
